@@ -14,14 +14,19 @@
         <div class="calc">
             First Number: &nbsp&nbsp&nbsp  <input type="number" id="firstNumber" /><br>
             Second Number: <input type="number" id="secondNumber" /><br>
-            Second Number: <input type="number" id="thirdNumber" /><br>
+            Third Number: <input type="number" id="thirdNumber" /><br>
             <input type="button" id="button" onClick="sumBy()" Value="Sum" />
             <input type="button" id="button" onClick="subtractBy()" Value="Subtract" />
             <input type="button" id="button" onClick="multiplyBy()" Value="Multiply" />
             <input type="button" id="button" onClick="divideBy()" Value="Divide" />
             
-            <p>The Result is : <br>
-            <span id = "result"></span>    </p>
+            <p>The Result is: <br>
+              <span id = "result"></span></p>
+              
+            <div class="memoryDisplay">
+              <p>Results: <span id="resultCount">0</span></p>
+              <p>Memory: <span id="memoryArray">[]</span></p>
+            </div>
         </div>
     </form>
         
