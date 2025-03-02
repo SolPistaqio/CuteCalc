@@ -38,3 +38,8 @@ input[type="number"] {
   font-size: 70px;
   color: darkslateblue;
 }
+
+.memoryDisplay {
+  margin-top: 20px;
+  font-size: 16px;
+}
